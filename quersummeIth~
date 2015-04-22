@@ -1,0 +1,6 @@
+#ifndef __qsit_h__
+#define __qsit_h__
+
+int quersummeIt(int x);
+
+#endif

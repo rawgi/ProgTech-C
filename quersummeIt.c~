@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int quersummeIt(int x){
+	int y = 0;
+	while(x>=1){
+		y = y+x%10;
+		x=x/10;
+		printf("%d %d \n",x,y);
+	}
+	return y;
+}
